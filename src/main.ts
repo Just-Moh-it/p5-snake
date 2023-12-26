@@ -129,8 +129,6 @@ class Snake {
 
   update() {
     if (this.isGameOver) return;
-    console.log("😋 Food x", this.food.x);
-    console.log("🐍 Snake x", this.getHead());
     if (
       this.partCoords.some(
         (coord) => coord[0] === this.food.x && coord[1] === this.food.y
