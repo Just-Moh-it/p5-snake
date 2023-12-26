@@ -2,6 +2,7 @@ import p5 from "p5";
 
 import "./style.css";
 
+// @ts-expect-error unused var
 const _app = new p5((p5Instance) => {
   const p = p5Instance as unknown as p5;
 
